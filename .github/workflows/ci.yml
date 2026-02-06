@@ -3,10 +3,10 @@ name: my first cicd pipeline
 on: 
     push:
       branches:
-        -main
+        - main
 jobs:
 test:
-runs-om:ubuntu-latest
+runs-on: ubuntu-latest
 
 steps:
 - name: checkout code
