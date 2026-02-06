@@ -1,4 +1,3 @@
-
 name: my first cicd pipeline
 on: 
     push:
