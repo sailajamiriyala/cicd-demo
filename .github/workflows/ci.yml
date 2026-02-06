@@ -13,5 +13,4 @@ jobs:
         uses: docker/setup-buildx-action@v2
       - name: Build Docker image
         run: docker build -t cicd-demo .
-      - name: Run Docker container
-        run: docker run -d -p 8080:80 cicd-demo
+      
