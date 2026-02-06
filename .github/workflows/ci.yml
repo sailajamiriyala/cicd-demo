@@ -4,10 +4,10 @@ on:
       branches:
         - main
 jobs:
-test:
-runs-on: ubuntu-latest
-steps:
-   - name: Checkout code
-     uses: actions/checkout@v3
-   - name : Run simple test
-     run: echo :"cicd pipeline is working!"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name : Run simple test
+        run: echo :"cicd pipeline is working!"
